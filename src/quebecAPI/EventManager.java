@@ -12,7 +12,7 @@ public class EventManager {
 
     /**
      * This involves creating new event in the database, given a Event instance
-     * @return
+     *
      */
     public EventConfirmation addNewEvent() {
 

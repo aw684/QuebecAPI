@@ -3,12 +3,12 @@ package quebecAPI;
 /**
  * EventConfirmation: this is used by UserManager to return back to the client with the event and any errors.
  */
-public class EventConfirmation {
+public class EventConfirmation extends Confirmation {
     private Event event;
-    private Error error;
 
-    EventConfirmation(Event event, Error error) {
+    EventConfirmation(Event event, Error err, boolean bool) {
+        super(err, bool);
         this.event = event;
-        this.error = error;
+
     }
 }
