@@ -16,7 +16,7 @@ public class EventManager {
      */
     public EventConfirmation addNewEvent() {
 
-        return new EventConfirmation();
+        return null;
     }
 
 
